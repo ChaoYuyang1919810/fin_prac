@@ -4,5 +4,4 @@ while len(password) < password_length:
     print("Error")
     password = input("Enter password:")
 
-#     print("*",end = "")
 print("*" * len(password))
